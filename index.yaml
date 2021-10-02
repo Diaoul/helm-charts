@@ -1,0 +1,31 @@
+apiVersion: v1
+entries:
+  double-take:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2021-10-02T06:46:24.14130418Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.1
+    description: Unified UI and API for processing and training images for facial
+      recognition
+    digest: d12625fef2452fd1ecdb7f1d030734b8d4bb107adbfdf036ad5c1469029c0e48
+    home: https://github.com/Diaoul/helm-charts/tree/master/charts/double-take
+    keywords:
+    - double-take
+    - facial
+    - recognition
+    - ml
+    - machine-learning
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ant.bertin@gmail.com
+      name: Diaoul
+    name: double-take
+    sources:
+    - https://github.com/jakowenko/double-take
+    urls:
+    - https://github.com/Diaoul/helm-charts/releases/download/double-take-0.1.0/double-take-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-10-02T06:46:24.14131828Z"

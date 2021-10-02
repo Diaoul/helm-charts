@@ -3,6 +3,37 @@ entries:
   deepstack:
   - apiVersion: v2
     appVersion: 1.2.1
+    created: "2021-10-02T11:52:40.039886701Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.1
+    description: DeepStack is an Open-Source AI API engine that serves pre-built models
+      and custom models on multiple edge devices locally or on your private cloud.
+    digest: 8adb81c3a1066f2c05d906832f5bed03744b57ab317682ba41f9bd0a388278f9
+    home: https://github.com/Diaoul/helm-charts/tree/master/charts/deepstack
+    keywords:
+    - deepstack
+    - face
+    - facial
+    - object
+    - detection
+    - recognition
+    - ai
+    - ml
+    - machine-learning
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ant.bertin@gmail.com
+      name: Diaoul
+    name: deepstack
+    sources:
+    - https://github.com/johnolafenwa/DeepStack
+    urls:
+    - https://github.com/Diaoul/helm-charts/releases/download/deepstack-0.1.1/deepstack-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.2.1
     created: "2021-10-02T11:41:15.946077782Z"
     dependencies:
     - name: common
@@ -87,4 +118,4 @@ entries:
     urls:
     - https://github.com/Diaoul/helm-charts/releases/download/double-take-0.1.0/double-take-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-02T11:41:16.102024056Z"
+generated: "2021-10-02T11:52:40.039912801Z"

@@ -1,0 +1,20 @@
+image:
+  repository: docker.io/jakowenko/double-take
+  tag: 1.2.0
+  pullPolicy: IfNotPresent
+
+
+service:
+  main:
+    ports:
+      http:
+        port: 3000
+
+ingress:
+  main:
+    enabled: false
+
+persistence:
+  storage:
+    enabled: false
+    mountPath: /.storage

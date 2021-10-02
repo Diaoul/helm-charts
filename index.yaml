@@ -1,6 +1,65 @@
 apiVersion: v1
 entries:
+  deepstack:
+  - apiVersion: v2
+    appVersion: 1.2.1
+    created: "2021-10-02T11:41:15.946077782Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.1
+    description: DeepStack is an Open-Source AI API engine that serves pre-built models
+      and custom models on multiple edge devices locally or on your private cloud.
+    digest: 0514e41d3528b43521f2e4aa8466e82a06d3207fe11b776280130f4a96e3a39f
+    home: https://github.com/Diaoul/helm-charts/tree/master/charts/deepstack
+    keywords:
+    - deepstack
+    - face
+    - facial
+    - object
+    - detection
+    - recognition
+    - ai
+    - ml
+    - machine-learning
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ant.bertin@gmail.com
+      name: Diaoul
+    name: deepstack
+    sources:
+    - https://github.com/johnolafenwa/DeepStack
+    urls:
+    - https://github.com/Diaoul/helm-charts/releases/download/deepstack-0.1.0/deepstack-0.1.0.tgz
+    version: 0.1.0
   double-take:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2021-10-02T11:41:16.101955754Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.0.1
+    description: Unified UI and API for processing and training images for facial
+      recognition
+    digest: 22ea4ea7a988a80c6d9226481d8e14dcac00dae765b50b949df8eb4387eb2e99
+    home: https://github.com/Diaoul/helm-charts/tree/master/charts/double-take
+    keywords:
+    - double-take
+    - facial
+    - recognition
+    - ml
+    - machine-learning
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: ant.bertin@gmail.com
+      name: Diaoul
+    name: double-take
+    sources:
+    - https://github.com/jakowenko/double-take
+    urls:
+    - https://github.com/Diaoul/helm-charts/releases/download/double-take-0.1.1/double-take-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 1.2.0
     created: "2021-10-02T06:46:24.14130418Z"
@@ -28,4 +87,4 @@ entries:
     urls:
     - https://github.com/Diaoul/helm-charts/releases/download/double-take-0.1.0/double-take-0.1.0.tgz
     version: 0.1.0
-generated: "2021-10-02T06:46:24.14131828Z"
+generated: "2021-10-02T11:41:16.102024056Z"

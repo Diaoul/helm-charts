@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 1.2.1
 description: DeepStack is an Open-Source AI API engine that serves pre-built models and custom models on multiple edge devices locally or on your private cloud.
 name: deepstack
-version: 0.1.1
+version: 0.2.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - deepstack
@@ -23,4 +23,4 @@ maintainers:
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
-    version: 4.0.1
+    version: 4.3.0

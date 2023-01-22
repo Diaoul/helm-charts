@@ -176,4 +176,16 @@ entries:
     urls:
     - https://github.com/Diaoul/helm-charts/releases/download/double-take-0.1.0/double-take-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-15T08:53:17.893077684Z"
+  emqx:
+  - apiVersion: v2
+    appVersion: 5.0.14
+    created: "2023-01-22T17:20:23.155239943Z"
+    description: A Helm chart for EMQX
+    digest: 84f78406ae71c34740a99ac897a1db454cd37db78db31728d101d60e58fc9215
+    icon: https://github.com/emqx.png
+    name: emqx
+    type: application
+    urls:
+    - https://github.com/Diaoul/helm-charts/releases/download/emqx-5.0.14/emqx-5.0.14.tgz
+    version: 5.0.14
+generated: "2023-01-22T17:20:23.155254843Z"
